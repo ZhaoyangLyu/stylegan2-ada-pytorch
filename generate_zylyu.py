@@ -75,7 +75,7 @@ def generate_images(
 
     \b
     # Generate unconditional CIFAR-10 images (Fig.17 left, Car)
-    python generate_zylyu.py --outdir=cifar10_stylegan_ada_unconditional --seeds=0-35 --network=exps/cifar10/00001-cifar10-cifar/network-snapshot-022176.pkl
+    python generate_zylyu.py --outdir=cifar10_stylegan_ada_unconditional --seeds=0-49999 --network=exps/cifar10/00001-cifar10-cifar/network-snapshot-023788.pkl
 
     \b
     # Render an image from projected W
